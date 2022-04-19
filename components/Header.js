@@ -1,6 +1,5 @@
-export default function Header({ site-header }) {
-  return <h1 className="title">{title}</h1>
-<header id="header" class="site-header header-style-2">
+export default function Header({ title }) {
+  return <header id="header" class="title site-header header-style-2">{title}
             <nav class="navigation navbar navbar-default original">
                 <div class="container">
                     <div class="navbar-header">
